@@ -1,6 +1,8 @@
-![tokyodark.nvim](https://user-images.githubusercontent.com/30515389/141231977-82476546-eb48-47e4-a5fc-45ace7eacb0d.png)
+# Witchcraft
 
-![image](https://user-images.githubusercontent.com/30515389/115807570-42385080-a3bf-11eb-8286-c981b5093ffa.png)
+Based on `tiagovla/tokyodark.nvim`
+
+![screenshot](screenshot.jpg)
 
 ### About
 
@@ -19,13 +21,13 @@ Install with your favorite package manager:
 
 ``` lua
 {
-    "tiagovla/tokyodark.nvim",
+    "Dedtec/witchcraft.nvim",
     opts = {
         -- custom options here
     },
     config = function(_, opts)
-        require("tokyodark").setup(opts) -- calling setup is optional
-        vim.cmd [[colorscheme tokyodark]]
+        require("witchcraft").setup(opts) -- calling setup is optional
+        vim.cmd [[colorscheme witchcraft]]
     end,
 }
 ```
@@ -51,5 +53,6 @@ local default_config = {
 
 ### Inspiration
 
+- [tokyodark.nvim](https://github.com/tiagovla/tokyodark.nvim)
 - [tokyonight-vim](https://github.com/ghifarit53/tokyonight-vim)
 - [tokyo-night-vscode-theme](https://github.com/enkia/tokyo-night-vscode-theme)

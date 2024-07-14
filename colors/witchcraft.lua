@@ -4,4 +4,4 @@
 --     end
 -- end
 
-require("tokyodark").colorscheme()
+require("witchcraft").colorscheme()

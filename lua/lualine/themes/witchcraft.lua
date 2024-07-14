@@ -1,7 +1,7 @@
 -- Copyright (c) 2021-2022 tiagovla
 -- License: MIT
 --
-local p = require("tokyodark.palette")
+local p = require("witchcraft.palette")
 local colors = {
     bg = p.bg1,
     fg = p.fg,
@@ -15,7 +15,7 @@ local colors = {
 	none = p.none,
 }
 
-local tokyo_dark = {
+local witch_craft = {
     inactive = {
         a = { fg = colors.grey, bg = colors.none, gui = "bold" },
         b = { fg = colors.grey, bg = colors.none },
@@ -50,6 +50,6 @@ function mt:__index(k)
     end
 end
 
-tokyo_dark = setmetatable(tokyo_dark, mt)
+witch_craft = setmetatable(witch_craft, mt)
 
-return tokyo_dark
+return witch_craft

@@ -1,5 +1,6 @@
 local M = {}
-local p = require("tokyodark.palette")
+local p = require("witchcraft.palette")
+
 
 function M.setup()
     vim.g.terminal_color_0 = p.black

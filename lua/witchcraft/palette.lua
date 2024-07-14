@@ -1,5 +1,5 @@
-local config = require("tokyodark.config")
-local utils = require("tokyodark.utils")
+local config = require("witchcraft.config")
+local utils = require("witchcraft.utils")
 
 local palette = {
     black = "#06080A",
@@ -23,9 +23,9 @@ local palette = {
     red = "#EE6D85",
     orange = "#F6955B",
     yellow = "#D7A65F",
-    green = "#95C561",
-    blue = "#7199EE",
-    cyan = "#38A89D",
+    green = "#61c593",-- "#95C561",
+    blue = "#7179ee", -- "#7199EE",
+    cyan = "#3bb8b2", -- "#38A89D",
     purple = "#A485DD",
     grey = "#4A5057",
     none = "NONE",

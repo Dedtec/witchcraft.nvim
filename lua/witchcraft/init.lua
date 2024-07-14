@@ -7,10 +7,10 @@ function M.colorscheme()
     end
     vim.o.background = "dark"
     vim.o.termguicolors = true
-    vim.g.colors_name = "tokyodark"
-    require("tokyodark.highlights").setup()
+    vim.g.colors_name = "witchcraft"
+    require("witchcraft.highlights").setup()
 end
 
-M.setup = require("tokyodark.config").setup
+M.setup = require("witchcraft.config").setup
 
 return M

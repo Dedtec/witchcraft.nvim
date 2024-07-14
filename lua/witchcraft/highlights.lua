@@ -1,7 +1,7 @@
-local p = require("tokyodark.palette")
-local utils = require("tokyodark.utils")
-local config = require("tokyodark.config")
-local terminal = require("tokyodark.terminal")
+local p = require("witchcraft.palette")
+local utils = require("witchcraft.utils")
+local config = require("witchcraft.config")
+local terminal = require("witchcraft.terminal")
 
 local M = {}
 
@@ -292,7 +292,7 @@ M.highlights = {
     ["@type.builtin"] = { link = "Type", default = true },
     ["@type.definition"] = { link = "Typedef", default = true },
     ["@type.qualifier"] = { link = "Type", default = true },
-    ["@variable"] = { fg = p.fg, default = true } + styles.variables,
+    ["@variable"] = { fg = p.fg } + styles.variables,
     ["@variable.builtin"] = { fg = p.purple, default = true },
 
     -- lsp
